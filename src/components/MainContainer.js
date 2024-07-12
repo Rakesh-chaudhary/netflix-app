@@ -3,7 +3,7 @@ import VideoTitle from "./VideoTitle";
 import { useSelector } from "react-redux";
 
 const MainContainer =() =>{
-
+// Main Movie
     const movies = useSelector(store =>store.movies?.nowPlayingMovies);
 
     
