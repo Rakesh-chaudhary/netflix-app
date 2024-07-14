@@ -24,7 +24,7 @@ const Body= () =>{
 
 
     return (
-        <div>
+        <div className="overflow-x-scroll container-snap ">
 
 <RouterProvider router={appRouter} />
 
